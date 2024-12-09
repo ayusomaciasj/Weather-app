@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>The Weather App</h1>
+        <div>
+            <img src="images/icons8-cloud.png" alt="cloud image">
+            <img src="images/icons8-lightning-bolt.png" alt="thermoter image">
+            <img src="images/icons8-snow-storm.png" alt="thermoter image">
+            <img src="images/icons8-summer.png" alt="thermoter image">
+        </div>
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="search-button">Get Weather</button>
+        <button id="geo-button">Use My Location</button>
+        <div id="current-weather">
+            <h2 id="city-name"></h2>
+            <div id="current-details">
+                <p id="temperature"></p>
+                <p id="condition"></p>
+                <img id="current-icon" alt="Weather Icon">
+            </div>
+        </div>
+        <div id="forecast">
+            <h2>5-Day Forecast</h2>
+            <div id="forecast-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

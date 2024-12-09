@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', 'sans-serif';
+    text-align: center;
+    background-color: #100a25;
+    margin: 0;
+    padding: 20px;
+}
+
+.weather-app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 5px;
+    width: calc(100% - 20px);
+    max-width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #081829;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#forecast {
+    margin-top: 20px;
+}
+
+#forecast-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.forecast-day {
+    text-align: center;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+
+.forecast-day img{
+    width: 50px;
+    height: 50px;
+    margin: 50px 0;
+}
+
+#current-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between text and icon */
+}
+
+#current-details img {
+    width: 50px;
+    height: 50px;
+}
+
